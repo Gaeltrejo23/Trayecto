@@ -1,0 +1,16 @@
+
+.efecto{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.efecto:hover{
+    width: 300px;
+}
+
+.efecto:hover{
+    cursor: pointer;
+    width: 400px;
+    border-radius: 56%;
+    transition: 3s;
+}
