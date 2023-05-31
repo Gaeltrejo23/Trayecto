@@ -1,0 +1,27 @@
+body{
+    background-image: url(../img/hielito.jpg);
+    background-size: cover;
+}
+.content{
+    width: 150px;
+    height: 190px;
+    margin: 80px auto;
+    background-image: url(../img/panda.jpg);
+}
+/*.shadow3d{
+    background-image: url(../img/base.webp);
+    position: absolute;
+    width: 480px;
+    height: 480px;
+}*/
+@keyframes rotar{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: 1000px;
+    }    
+}
+#image{
+    position: absolute;
+}

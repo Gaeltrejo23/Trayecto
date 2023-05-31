@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Formulario</title>
+</head>
+<head>
+<style>
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 24px;
+}
+
+select {
+    margin: 24px;
+}
+</style>
+</head>
+<body>
+<form>
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required placeholder="Nombre">
+    <label for="surname1">Apellido Paterno:</label>
+    <input type="text" id="surname1" name="surname1" required placeholder="Apellido Paterno">
+
+    <label for="surname2">Apellido Materno:</label>
+    <input type="text" id="surname2" name="surname2" required placeholder="Apellido Materno">
+
+    <label for="age">Edad:</label>
+    <input type="number" id="age" name="age" min="15" max="60" required placeholder="Edad">
+
+    <label for="street">Calle:</label>
+    <input type="text" id="street" name="street" required placeholder="Calle">
+
+    <label for="neighborhood">Colonia:</label>
+    <input type="text" id="neighborhood" name="neighborhood" required placeholder="Colonia">
+
+    <label for="state">Estado:</label>
+    <input type="text" id="state" name="state" required placeholder="Estado">
+
+    <label for="career">Carrera:</label>
+    <select id="career" name="carrera">
+        <option value="Informatica">Informatica</option>
+        <option value="Alimentos y Bebidas">Alimentos y Bebidas</option>
+        <option value="Hostitalidad Turistica">Hostitalidad Turistica</option>
+        <option value="Contabilidad">Contabilidad</option>
+    </select>
+
+    <label for="group">Grupo:</label>
+    <select id="group" name="group">
+        <option value="206">206</option>
+        <option value="406">406</option>
+        <option value="606">606</option>
+        <option value="403">403</option>
+    </select>
+
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>

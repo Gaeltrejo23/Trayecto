@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right, rgb(122, 9, 187), rgb(211, 124, 11));
+    color: rgb(79, 77, 199);
+}
+form {
+    box-shadow: 10px 10px 10px rgb(221, 23, 211);
+    border-radius: 20px;
+}
+label {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+input {
+    transition: 0.5s;
+}
+input:hover {
+    transform: scale(1.1);
+}
+select option:nth-child(1) {
+    color: rgb(0, 4, 255);
+}
+select option:nth-child(2) {
+    color: rgb(0, 23, 128);
+}
+select option:nth-child(3) {
+    color: rgb(140, 0, 255);
+}
+select option:nth-child(4) {
+    color: rgb(255, 0, 200);
+}
+input[type=submit] {
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% {
+    transform: scale(1);
+    background-color: white;
+    color: black;
+    }
+    50% {
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    }
+    100% {
+    transform: scale(1);
+    background-color: white;
+    color: black;
+    }
+}

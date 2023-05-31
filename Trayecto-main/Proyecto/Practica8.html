@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/barra.css" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Menu</title>
+  </head>
+  <body>
+    <!--inicia nav-bar-->
+    <nav class="nav-bar">
+      <div class="container">
+        <input type="checkbox" id="drop-down-cbox" />
+        <label for="drop-down-cbox">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <h1 class="site-logo">Gael Trejo Hernandez</h1>
+        <ul class="main-nav estilo-nav">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li>
+            <span>Servicios</span>
+            <ul>
+              <li><a href="#">Diseño Web</a></li>
+              <li><a href="#">Marketing Digital</a></li>
+              <li><a href="#">Comunity Manager</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--inicia nav-bar-->
+  <div class="total"> 
+      <div class="barra">
+    <div class="barra">
+      <div class="parte1">
+        <ul>
+          <li><a href="tel: 5690382175">Telefono: 56-90-38-21-75 |</a></li>
+          <li><a href="https://twitter.com" target="_blank">Twitter: |</a></li>
+          <li><a href="https://facebook.com" target="_blank">Facebook: |</a></li>
+          <li><a href="https://instagram.com" target="_blank">Instagram: |</a></li>
+        </ul>
+      </div>
+  <div class="parte2">
+    <form action=" "method="post">
+      <input type="text" placeholder="Buscar" class="cajaBuscar" id="Buscar">
+      <button onclick="buscar();" class="btnBuscar">Buscar</button>
+    </form>
+    </div>
+  </div>
+</div>
+</div>
+    <!--Termina la barra de contacto-->
+    <!--Inicia el parallax-->
+    <div class="main">
+      <section class="content">
+        <div class="parallax ing-uno" id="n">
+          <div class="texto-interior">
+            <h2 id="m">Diseño y desarrollo web.</h2>
+            <p>Damos vida a tus ideas en la web</p>
+          </div>
+        </div>
+      </section>  
+    </div>
+      <!--parallax-->
+      <script>
+        function buscar(){
+          //var cajaBuscar=document.getElementById("Buscar") .value;//
+          var cajaBuscar = prompt ("¿Que desea buscar?");
+          if (cajaBuscar == " ")
+            alert ("No colocaste nada en el buscador");
+          else {
+          alert("Tu criterio de busqueda es: " + cajaBuscar);
+        }
+      }
+      </script>
+  </body>
+</html>
